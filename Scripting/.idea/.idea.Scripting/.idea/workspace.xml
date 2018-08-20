@@ -55,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EndGame.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EndGame.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/EndGame.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -71,6 +71,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="KillPlayer.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/KillPlayer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+              <folding>
+                <marker date="1534796401685" expanded="true" signature="6:78" ph="..." />
+                <marker date="1534796401685" expanded="true" signature="119:253" ph="{...}" />
+                <marker date="1534796401685" expanded="true" signature="208:249" ph="{...}" />
+                <marker date="1534796401685" expanded="true" signature="234:246" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -81,6 +96,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/IfStatements.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/KillPlayer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -89,6 +105,7 @@
         <option value="$PROJECT_DIR$/Assets/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/HealthBar.cs" />
         <option value="$PROJECT_DIR$/Assets/EndGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/KillPlayer.cs" />
       </list>
     </option>
   </component>
@@ -147,12 +164,12 @@
       <option name="presentableId" value="Default" />
       <updated>1534794274976</updated>
       <workItem from="1534794279040" duration="783000" />
-      <workItem from="1534795109064" duration="1114000" />
+      <workItem from="1534795109064" duration="1887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1897000" />
+    <option name="totallyTimeSpent" value="2670000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -164,7 +181,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -266,6 +283,19 @@
             <marker date="1534796203321" expanded="true" signature="194:201" ph="{...}" />
             <marker date="1534796203321" expanded="true" signature="256:306" ph="{...}" />
             <marker date="1534796203321" expanded="true" signature="281:303" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/KillPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <marker date="1534796401685" expanded="true" signature="6:78" ph="..." />
+            <marker date="1534796401685" expanded="true" signature="119:253" ph="{...}" />
+            <marker date="1534796401685" expanded="true" signature="208:249" ph="{...}" />
+            <marker date="1534796401685" expanded="true" signature="234:246" ph="{...}" />
           </folding>
         </state>
       </provider>
