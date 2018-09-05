@@ -1,15 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class DestroyEvent : MonoBehaviour
+public class UpdateEvent : MonoBehaviour
 {
 
 	public UnityEvent Event;
 
-	private void OnTriggerEnter(Collider other)
+	private void Update()
 	{
 		Event.Invoke();
 	}

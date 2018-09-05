@@ -4,7 +4,7 @@ using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class DestroyEvent : MonoBehaviour
+public class MouseDownEvent : MonoBehaviour
 {
 
 	public UnityEvent Event;
