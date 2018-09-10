@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6f1913b002ecc764ea9e10db3a1a039b, type: 3}
-  m_Name: Horizontal
+  m_Name: Horizontal 1
   m_EditorClassIdentifier: 
-  value: 6
+  value: 3
   InputType: Horizontal

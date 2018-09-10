@@ -5,33 +5,16 @@ using System.Collections;
 
 public class CharacterMovement : MonoBehaviour 
 {
-	public float speed = 6.0F;
-	public float jumpSpeed = 8.0F;
-	public float gravity = 20.0F;
-
-	public FloatData MoveX, MoveY, MoveZ;
-
-	private Vector3 moveDirection = Vector3.zero;
-	private CharacterController controller;
+	
+	private CharacterController controller; //used to move object
+	public MovePattern Pattern;
 
 
 	private void Start()
 	{
-		controller = GetComponent<CharacterController>();
+		controller = GetComponent<CharacterController>(); //get component
 	}
 
 	void Update() {
-		
-		CharacterController controller = GetComponent<CharacterController>();
-		if (controller.isGrounded) {
-			moveDirection.Set(MoveX.Value, MoveY.Value, MoveZ.Value); //allows the object to move depending on XYZ and the value is determined by the floats
-			moveDirection = transform.TransformDirection(moveDirection);
-			moveDirection *= speed;
-			if (Input.GetButton("Jump"))
-				moveDirection.y = jumpSpeed;
-            
-		}
-		moveDirection.y -= gravity * Time.deltaTime;
-		controller.Move(moveDirection * Time.deltaTime);
+		Pattern.Invoke(controller, transform);
 	}
-}

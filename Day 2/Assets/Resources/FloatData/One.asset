@@ -8,8 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f1913b002ecc764ea9e10db3a1a039b, type: 3}
-  m_Name: Horizontal
+  m_Script: {fileID: 11500000, guid: 74a9677b6bc021643a8d0182d2f3b723, type: 3}
+  m_Name: One
   m_EditorClassIdentifier: 
-  value: 6
-  InputType: Horizontal
+  value: 1

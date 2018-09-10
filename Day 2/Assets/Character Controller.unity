@@ -209,12 +209,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a84335dd1f0c4440985ef18d243d0ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
-  jumpSpeed: 8
-  gravity: 20
+  jumpSpeed: {fileID: 11400000, guid: f8ee7f0526b95214185aadfdce9eb119, type: 2}
+  gravity: {fileID: 11400000, guid: 7cf4ff58123780d4cb4b791543c22765, type: 2}
   MoveX: {fileID: 11400000, guid: c913d504960fcd7439a8e9e61c4f66d4, type: 2}
-  MoveY: {fileID: 11400000, guid: 668b4a3885ada1c4fb02a73d642a54d1, type: 2}
+  MoveY: {fileID: 11400000, guid: d7991e491b12c3445a5e91fb10e34f11, type: 2}
   MoveZ: {fileID: 11400000, guid: d7991e491b12c3445a5e91fb10e34f11, type: 2}
+  RotX: {fileID: 11400000, guid: d7991e491b12c3445a5e91fb10e34f11, type: 2}
+  RotY: {fileID: 0}
+  RotZ: {fileID: 11400000, guid: d7991e491b12c3445a5e91fb10e34f11, type: 2}
 --- !u!143 &767460632
 CharacterController:
   m_ObjectHideFlags: 0
