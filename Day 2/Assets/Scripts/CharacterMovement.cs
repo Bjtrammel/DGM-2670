@@ -3,9 +3,9 @@ using System.Collections;
 
 [RequireComponent(typeof(CharacterController))]
 
-public class CharacterMovement : MonoBehaviour 
+public class CharacterMovement : MonoBehaviour
 {
-	
+
 	private CharacterController controller; //used to move object
 	public MovePattern Pattern;
 
@@ -15,6 +15,8 @@ public class CharacterMovement : MonoBehaviour
 		controller = GetComponent<CharacterController>(); //get component
 	}
 
-	void Update() {
+	void Update()
+	{
 		Pattern.Invoke(controller, transform);
 	}
+}
