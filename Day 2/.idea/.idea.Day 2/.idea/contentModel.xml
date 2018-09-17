@@ -6,6 +6,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="ArtIAgent.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
           <e p="EventsBasedBehaviors" t="Include">
             <e p="DestroyEvent.cs" t="Include" />
@@ -21,7 +22,6 @@
           <e p="MovePatterDual.cs" t="Include" />
           <e p="MovePattern.cs" t="Include" />
           <e p="MovePatternNotGrounded.cs" t="Include" />
-          <e p="NewBehaviourScript.cs" t="Include" />
           <e p="NewEvent.cs" t="Include" />
           <e p="PrefabData.cs" t="Include" />
         </e>

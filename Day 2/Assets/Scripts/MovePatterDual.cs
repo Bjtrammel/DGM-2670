@@ -16,11 +16,10 @@ public class MovePatterDual : MovePattern {
 			Move(transform);
 			doubleJump = true;
 		}
-		else (doubleJump)
-		{
+
 			Move(transform);
 			doubleJump = false;
-		}
+
 
 		Move(controller);
 	}
