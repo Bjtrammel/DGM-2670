@@ -9,10 +9,13 @@ public class ArtIAgent : MonoBehaviour
 	//public bool CanChase;
 	public Transform PostPoint;
 	private Transform finalDestination;
+	public FloatData Speed;
 	
 	private void Start()
 	{
+		
 		agent = GetComponent<NavMeshAgent>();
+		agent.speed = Speed.Value;
 		finalDestination = transform;
 	}
 

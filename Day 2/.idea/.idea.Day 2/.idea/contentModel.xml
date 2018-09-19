@@ -19,11 +19,13 @@
           <e p="FloatBool.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="FloatInput.cs" t="Include" />
+          <e p="ForEachLoops.cs" t="Include" />
           <e p="MovePatterDual.cs" t="Include" />
           <e p="MovePattern.cs" t="Include" />
           <e p="MovePatternNotGrounded.cs" t="Include" />
           <e p="NewEvent.cs" t="Include" />
           <e p="PrefabData.cs" t="Include" />
+          <e p="RunCountDown.cs" t="Include" />
         </e>
       </e>
       <e p="Day 2.sln" t="IncludeFlat" />
