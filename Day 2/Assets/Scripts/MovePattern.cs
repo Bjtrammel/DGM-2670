@@ -24,13 +24,7 @@ public class MovePattern : ScriptableObject
 
 		Move(controller);
 	}
-
-	protected void Move(CharacterController controller)
-	{
-		moveDirection.y -= gravity.Value * Time.deltaTime;
-		controller.Move(moveDirection * Time.deltaTime);
-	}
-
+	
 	protected void Move(Transform transform)
 	{
 		moveDirection.Set(MoveX.Value, MoveY.Value,
@@ -38,5 +32,11 @@ public class MovePattern : ScriptableObject
 		rotDirection.Set(RotX.Value, RotY.Value, RotZ.Value);
 		transform.Rotate(rotDirection); //rotates on the directions
 		moveDirection = transform.TransformDirection(moveDirection); //  
+	}
+
+	protected void Move(CharacterController controller)
+	{
+		moveDirection.y -= gravity.Value;
+		controller.Move(moveDirection * Time.deltaTime);
 	}
 }

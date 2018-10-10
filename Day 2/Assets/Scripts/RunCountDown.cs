@@ -6,11 +6,13 @@ using UnityEngine.UI;
 
 public class RunCountDown : MonoBehaviour
 {
+	public float seconds = 1.0f;
+	public int number = 3;
 	private Text label;
 
 	IEnumerator Start ()
 	{
-		int number = 60;
+		label = GetComponent<Text>();
 
 		while (number > 0)
 		{
@@ -18,7 +20,7 @@ public class RunCountDown : MonoBehaviour
 			label.text = number.ToString();
 			number --;
 		}
-
+    
 		label.text = "";
 		yield return new WaitForSeconds(1);
 		label.text = "Go!";

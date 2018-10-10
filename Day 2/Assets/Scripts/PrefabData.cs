@@ -7,6 +7,7 @@ public class PrefabData : ScriptableObject
 	public Sprite SpriteImage;
 	public Color SpriteColor;
 
+
 	public void OnConfigure()
 	{
 		var newPrefab = Instantiate(Prefab);
