@@ -1,0 +1,3 @@
+[submodule "DGM-2670\\Day 2\\NavMesh"]
+	path = DGM-2670\\Day 2\\NavMesh
+	url = https://github.com/Unity-Technologies/NavMeshComponents.git
