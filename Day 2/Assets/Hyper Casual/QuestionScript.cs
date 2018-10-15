@@ -18,10 +18,10 @@ public class QuestionScript : MonoBehaviour
 			_unanswseredQuestions = question.ToList<Questions>();
 		}
 
-		GetRandomQuestion();
-	}
+		SetCurrentQuestion();
+		}
 
-	void GetRandomQuestion()
+	void SetCurrentQuestion()
 	{
 		int randomQuestionIndex = Random.Range(0, _unanswseredQuestions.Count);
 		currentQuestion = _unanswseredQuestions[randomQuestionIndex];

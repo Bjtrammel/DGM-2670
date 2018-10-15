@@ -7,5 +7,9 @@ public class Question : ScriptableObject
 {
 
 	public string questions;
-	public bool isTrue;
+
+	public string answerOne;
+	public string answerTwo;
+	public string answerThree;
+	public string answerFour;
 }
