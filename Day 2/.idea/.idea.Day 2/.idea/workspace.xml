@@ -71,15 +71,15 @@
       <file leaf-file-name="SnapScript.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Hyper Casual/Scripts/SnapScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+            <state relative-caret-position="315">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
               <folding>
-                <marker date="1539202840393" expanded="false" signature="6:78" ph="..." />
-                <marker date="1539202840393" expanded="true" signature="119:493" ph="{...}" />
-                <marker date="1539202840393" expanded="true" signature="224:269" ph="{...}" />
-                <marker date="1539202840393" expanded="true" signature="290:324" ph="{...}" />
-                <marker date="1539202840393" expanded="true" signature="347:491" ph="{...}" />
-                <marker date="1539202840393" expanded="true" signature="365:488" ph="{...}" />
+                <marker date="1539203009024" expanded="false" signature="6:78" ph="..." />
+                <marker date="1539203009024" expanded="true" signature="119:495" ph="{...}" />
+                <marker date="1539203009024" expanded="true" signature="220:265" ph="{...}" />
+                <marker date="1539203009024" expanded="true" signature="286:320" ph="{...}" />
+                <marker date="1539203009024" expanded="true" signature="343:493" ph="{...}" />
+                <marker date="1539203009024" expanded="true" signature="361:490" ph="{...}" />
               </folding>
 =======
       <file pinned="false" current-in-tab="false">
@@ -386,18 +386,26 @@
       <workItem from="1538421160033" duration="4021000" />
       <workItem from="1538593920448" duration="1526000" />
       <workItem from="1539026095738" duration="2515000" />
+<<<<<<< Updated upstream
       <workItem from="1539201155434" duration="1782000" />
 =======
       <workItem from="1538867852727" duration="555000" />
+>>>>>>> Stashed changes
+=======
+      <workItem from="1539201155434" duration="2435000" />
 >>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="40183000" />
 =======
     <option name="totallyTimeSpent" value="30894000" />
+>>>>>>> Stashed changes
+=======
+    <option name="totallyTimeSpent" value="40836000" />
 >>>>>>> Stashed changes
   </component>
   <component name="TodoView">
@@ -412,7 +420,6 @@
   <component name="ToolWindowManager">
 <<<<<<< Updated upstream
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -880,6 +887,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Hyper Casual/Scripts/SnapScript.cs">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <state relative-caret-position="300">
           <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
           <folding>
@@ -903,6 +911,17 @@
             <marker date="1538867062689" expanded="true" signature="124:245" ph="{...}" />
             <marker date="1538867062689" expanded="true" signature="174:181" ph="{...}" />
             <marker date="1538867062689" expanded="true" signature="236:243" ph="{...}" />
+>>>>>>> Stashed changes
+=======
+        <state relative-caret-position="315">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <marker date="1539203009024" expanded="false" signature="6:78" ph="..." />
+            <marker date="1539203009024" expanded="true" signature="119:495" ph="{...}" />
+            <marker date="1539203009024" expanded="true" signature="220:265" ph="{...}" />
+            <marker date="1539203009024" expanded="true" signature="286:320" ph="{...}" />
+            <marker date="1539203009024" expanded="true" signature="343:493" ph="{...}" />
+            <marker date="1539203009024" expanded="true" signature="361:490" ph="{...}" />
 >>>>>>> Stashed changes
           </folding>
         </state>
