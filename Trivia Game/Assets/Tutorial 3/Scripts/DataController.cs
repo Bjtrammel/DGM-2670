@@ -4,24 +4,24 @@ using UnityEngine.SceneManagement;
 
 public class DataController : MonoBehaviour 
 {
-    public RoundData[] allRoundData;
+	public RoundData[] allRoundData;
 
 
-    // Use this for initialization
-    void Start ()  
-    {
-        DontDestroyOnLoad (gameObject);
+	// Use this for initialization
+	void Start ()  
+	{
+		DontDestroyOnLoad (gameObject);
 
-        SceneManager.LoadScene ("MenuScreen");
-    }
+		SceneManager.LoadScene ("MenuScreen");
+	}
 
-    public RoundData GetCurrentRoundData()
-    {
-        return allRoundData [0];
-    }
+	public RoundData GetCurrentRoundData()
+	{
+		return allRoundData [0];
+	}
 
-    // Update is called once per frame
-    void Update () {
+	// Update is called once per frame
+	void Update () {
     
-    }
+	}
 }

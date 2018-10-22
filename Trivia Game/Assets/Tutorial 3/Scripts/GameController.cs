@@ -27,16 +27,16 @@ public class GameController : MonoBehaviour
 	private List<GameObject> answerButtonGameObjects = new List<GameObject>();
 
 	// Use this for initialization
-	void Start()
+	void Start () 
 	{
-		dataController = FindObjectOfType<DataController>();
-		currentRoundData = dataController.GetCurrentRoundData();
+		dataController = FindObjectOfType<DataController> ();
+		currentRoundData = dataController.GetCurrentRoundData ();
 		questionPool = currentRoundData.questions;
 
 		playerScore = 0;
 		questionIndex = 0;
 
-		ShowQuestion();
+		ShowQuestion ();
 		isRoundActive = true;
 	}
 
