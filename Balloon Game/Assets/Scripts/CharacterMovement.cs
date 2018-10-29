@@ -9,6 +9,11 @@ public class CharacterMovement : MonoBehaviour
 	private CharacterController controller; //used to move object
 	public MovePattern Pattern;
 
+	public void SetPattern (MovePattern pattern)
+	{
+		Pattern = pattern;
+	}
+
 
 	private void Start()
 	{

@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Becky\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Becky\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_Day 2.-1409290305.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Becky\Desktop\School\DGM-2670\Day 2" t="IncludeRecursive">
+    <e p="C:\Users\10798648\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_Day 2.-528000058.00" t="ExcludeRecursive" />
+    <e p="C:\Users\10798648\Documents\Becky Trammel\DGM-2670\Day 2" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Hyper Casual" t="Include">
           <e p="Question.cs" t="Include" />
-          <e p="QuestionScript.cs" t="Include" />
           <e p="Scripts" t="Include">
             <e p="ChangeLetterColor.cs" t="Include" />
             <e p="ChangeSpriteColor.cs" t="Include" />
@@ -51,6 +49,7 @@
           <e p="PullText.cs" t="Include" />
           <e p="Questions.cs" t="Include" />
           <e p="RunCountDown.cs" t="Include" />
+          <e p="Trigger.cs" t="Include" />
         </e>
       </e>
       <e p="Day 2.sln" t="IncludeFlat" />

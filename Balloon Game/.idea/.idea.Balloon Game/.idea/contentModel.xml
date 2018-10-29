@@ -7,9 +7,6 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="CharacterMovement.cs" t="Include" />
-          <e p="Class" t="Include">
-            <e p="DebugObject.cs" t="Include" />
-          </e>
           <e p="Destroy.cs" t="Include" />
           <e p="DestroyEvent.cs" t="Include" />
           <e p="EventScript.cs" t="Include" />
@@ -21,7 +18,10 @@
           <e p="NewEvent.cs" t="Include" />
           <e p="PrefabData.cs" t="Include" />
           <e p="RunCountDown.cs" t="Include" />
-          <e p="TriggerEnterEvent.cs" t="Include" />
+          <e p="TriggerEnterEvent1.cs" t="Include" />
+          <e p="TriggerEnterWind.cs" t="Include" />
+          <e p="TriggerExitEvent1.cs" t="Include" />
+          <e p="TriggerExitWind.cs" t="Include" />
         </e>
       </e>
       <e p="Balloon Game.sln" t="IncludeFlat" />
