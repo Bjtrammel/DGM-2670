@@ -11,15 +11,15 @@ public class Destroy : MonoBehaviour
 	public GameObject Balloon;
 	public GameObject endScreen;
 
-	private void OnTriggerEnter(Collider other)
+	private void OnCollisionEnter(Collision other)
 	{
 		if (other.gameObject.name == "Balloon")
 		{
 			EndRound();
 		}
-		
+
 	}
-	
+
 	public void EndRound()
 	{
 	

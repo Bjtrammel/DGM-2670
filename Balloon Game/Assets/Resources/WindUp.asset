@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravity: {fileID: 11400000, guid: c96329ca98f6e2147bf223cdeca4d7de, type: 2}
   MoveX: {fileID: 11400000, guid: f0f4c3d0bf02a634ca0f2500ed2a5ba8, type: 2}
-  MoveY: {fileID: 11400000, guid: 096e93065184b37489606b20f1e34b39, type: 2}
+  MoveY: {fileID: 11400000, guid: 10d24503e97ad5f4cad9e013d6b81265, type: 2}
   MoveZ: {fileID: 11400000, guid: c96329ca98f6e2147bf223cdeca4d7de, type: 2}
   RotX: {fileID: 11400000, guid: c96329ca98f6e2147bf223cdeca4d7de, type: 2}
   RotY: {fileID: 11400000, guid: c96329ca98f6e2147bf223cdeca4d7de, type: 2}
