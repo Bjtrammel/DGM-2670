@@ -24,6 +24,8 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="ActionObject.cs" t="Include" />
+          <e p="AnyEvent.cs" t="Include" />
           <e p="ArtIAgent.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
           <e p="Counter.cs" t="Include" />
@@ -40,6 +42,7 @@
           <e p="FloatInput.cs" t="Include" />
           <e p="ForEachLoops.cs" t="Include" />
           <e p="InstanceObject.cs" t="Include" />
+          <e p="IntData.cs" t="Include" />
           <e p="MovePatterDual.cs" t="Include" />
           <e p="MovePattern.cs" t="Include" />
           <e p="MovePatternNotGrounded.cs" t="Include" />
@@ -50,6 +53,8 @@
           <e p="Questions.cs" t="Include" />
           <e p="RunCountDown.cs" t="Include" />
           <e p="Trigger.cs" t="Include" />
+          <e p="UpdateText.cs" t="Include" />
+          <e p="UserInput.cs" t="Include" />
         </e>
       </e>
       <e p="Day 2.sln" t="IncludeFlat" />
