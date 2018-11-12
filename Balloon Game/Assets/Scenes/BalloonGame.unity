@@ -2610,9 +2610,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dfe08c7fc98a4346b824ea75a4b0998, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Destination: {fileID: 256583823}
-  PostPoint: {fileID: 2102052464}
-  Speed: {fileID: 11400000, guid: 096e93065184b37489606b20f1e34b39, type: 2}
 --- !u!195 &1262211331
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2862,6 +2859,33 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 11400000, guid: df0e6d2595cba75498202677aa9b10c5,
             type: 2}
           m_ObjectArgumentAssemblyTypeName: MovePattern, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1352739176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1352739174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6156613e606b4d742859bb6ea9815ee8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11500000, guid: 8647a78fae375f14f82587c38e89d72f, type: 3}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
