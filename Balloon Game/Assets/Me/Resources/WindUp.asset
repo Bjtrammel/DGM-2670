@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e6b6b9f4dea03e46a346b82bf9585a8, type: 3}
+  m_Name: WindUp
+  m_EditorClassIdentifier: 
+  gravity: {fileID: 11400000, guid: c96329ca98f6e2147bf223cdeca4d7de, type: 2}
+  MoveX: {fileID: 11400000, guid: f0f4c3d0bf02a634ca0f2500ed2a5ba8, type: 2}
+  MoveY: {fileID: 11400000, guid: 10d24503e97ad5f4cad9e013d6b81265, type: 2}
+  MoveZ: {fileID: 11400000, guid: c96329ca98f6e2147bf223cdeca4d7de, type: 2}
+  RotX: {fileID: 11400000, guid: c96329ca98f6e2147bf223cdeca4d7de, type: 2}
+  RotY: {fileID: 11400000, guid: c96329ca98f6e2147bf223cdeca4d7de, type: 2}
+  RotZ: {fileID: 11400000, guid: c96329ca98f6e2147bf223cdeca4d7de, type: 2}

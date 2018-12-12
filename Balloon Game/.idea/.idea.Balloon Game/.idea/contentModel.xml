@@ -5,31 +5,44 @@
     <e p="C:\Users\10798648\Documents\Becky Trammel\DGM-2670\Balloon Game" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Scripts" t="Include">
-          <e p="CharacterMovement.cs" t="Include" />
-          <e p="Destroy.cs" t="Include" />
-          <e p="DestroyEvent.cs" t="Include" />
-          <e p="EventScript.cs" t="Include" />
-          <e p="FloatData.cs" t="Include" />
-          <e p="FloatInput.cs" t="Include" />
-          <e p="IntData.cs" t="Include" />
-          <e p="MouseDownEvent.cs" t="Include" />
-          <e p="MovePattern.cs" t="Include" />
-          <e p="MovePatternNotGrounded.cs" t="Include" />
-          <e p="NewEvent.cs" t="Include" />
-          <e p="PrefabData.cs" t="Include" />
-          <e p="PurchasableObject.cs" t="Include" />
-          <e p="Restart.cs" t="Include" />
-          <e p="RunCountDown.cs" t="Include" />
-          <e p="StartBehavior.cs" t="Include" />
-          <e p="TriggerEnterEvent.cs" t="Include" />
-          <e p="TriggerEnterEventL.cs" t="Include" />
-          <e p="TriggerEnterWindR.cs" t="Include" />
-          <e p="TriggerEnterWindU.cs" t="Include" />
-          <e p="TriggerExitEvent1.cs" t="Include" />
-          <e p="TriggerExitWind.cs" t="Include" />
-          <e p="UpdateText.cs" t="Include" />
+        <e p="Me" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="AddPointsTest.cs" t="Include" />
+            <e p="BirdPointsAdd.cs" t="Include" />
+            <e p="CharacterMovement.cs" t="Include" />
+            <e p="CheckPointsAdd.cs" t="Include" />
+            <e p="Destroy.cs" t="Include" />
+            <e p="DestroyEvent.cs" t="Include" />
+            <e p="EventScript.cs" t="Include" />
+            <e p="FloatData.cs" t="Include" />
+            <e p="FloatInput.cs" t="Include" />
+            <e p="IntData.cs" t="Include" />
+            <e p="MainMenu.cs" t="Include" />
+            <e p="MouseDownEvent.cs" t="Include" />
+            <e p="MovePattern.cs" t="Include" />
+            <e p="MovePatternNotGrounded.cs" t="Include" />
+            <e p="NewEvent.cs" t="Include" />
+            <e p="Points.cs" t="Include" />
+            <e p="PrefabData.cs" t="Include" />
+            <e p="PurchasableObject.cs" t="Include" />
+            <e p="Restart.cs" t="Include" />
+            <e p="RunCountDown.cs" t="Include" />
+            <e p="StartBehavior.cs" t="Include" />
+            <e p="Store" t="Include">
+              <e p="Store.cs" t="Include" />
+            </e>
+            <e p="TriggerEnterEvent.cs" t="Include" />
+            <e p="TriggerEnterEventL.cs" t="Include" />
+            <e p="TriggerEnterWindR.cs" t="Include" />
+            <e p="TriggerEnterWindU.cs" t="Include" />
+            <e p="TriggerExitEvent1.cs" t="Include" />
+            <e p="TriggerExitWind.cs" t="Include" />
+            <e p="UpdateScorePoints.cs" t="Include" />
+            <e p="windPointsAdd.cs" t="Include" />
+            <e p="WinGame.cs" t="Include" />
+          </e>
         </e>
+        <e p="Vector3Data.cs" t="Include" />
       </e>
       <e p="Balloon Game.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
